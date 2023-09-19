@@ -25,7 +25,7 @@ Zheng et al. 2023. Multimodal Learning for Comprehensive 3D Mineral Prospectivit
 ### Data Preparation
 
 Acquire projected shape descriptors (see [3DMPM](https://github.com/ChengYeung1222/3DMPM)) and their corresponding
-coordinates.
+properties.
 
 Create `.csv` files for training and validation data. Each of them lists the complete path to your
 projected images together with labels (ore-bearing and non-ore-bearing) and standardized fluid properties in the following
