@@ -1,7 +1,7 @@
 # multimodalFusion
-This repository contains the PyTorch implementation of the multimodal fusion learning method proposed in the paper:
+This repository contains the PyTorch implementation of the joint integration method proposed in the paper:
 
-Zheng et al. 2023. Multimodal Learning for Comprehensive 3D Mineral Prospectivity Modeling: Jointly Learned Structure-Fluid Relationships.
+_Deep multimodal fusion for 3D mineral prospectivity modeling: Integration of 3D geological models and computational simulation results using joint fusion network via canonical correlation analysis_.
 
 ## Requirements
 
