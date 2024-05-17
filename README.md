@@ -1,7 +1,9 @@
 # multimodalFusion
 This repository contains the PyTorch implementation of the joint integration method proposed in the paper:
 
-_Deep multimodal fusion for 3D mineral prospectivity modeling: Integration of 3D geological models and computational simulation results using joint fusion network via canonical correlation analysis_.
+_[Deep multimodal fusion for 3D mineral prospectivity modeling: Integration of geological models and simulation data via canonical-correlated joint fusion networks](https://www.sciencedirect.com/science/article/pii/S0098300424001018?via%3Dihub)_, 
+
+now accessible in Computers & Geosciences.
 
 ## Requirements
 
@@ -72,3 +74,22 @@ python -m visdom.server
 ```
 
 which can start a visdom server on a given port.
+
+### Citation
+
+If you use this library for your research, we would be pleased if you cite the following papers:
+
+```
+@article{ZHENG2024105618,
+title = {Deep multimodal fusion for 3D mineral prospectivity modeling: Integration of geological models and simulation data via canonical-correlated joint fusion networks},
+journal = {Computers & Geosciences},
+pages = {105618},
+year = {2024},
+issn = {0098-3004},
+doi = {https://doi.org/10.1016/j.cageo.2024.105618},
+url = {https://www.sciencedirect.com/science/article/pii/S0098300424001018},
+author = {Yang Zheng and Hao Deng and Jingjie Wu and Shaofeng Xie and Xinyue Li and Yudong Chen and Nan Li and Keyan Xiao and Norbert Pfeifer and Xiancheng Mao},
+keywords = {Mineral prospectivity modeling, Multimodal fusion, 3D geological models, Geodynamic simulation data, Canonical correlation analysis},
+abstract = {Data-driven three-dimensional (3D) mineral prospectivity modeling (MPM) employs diverse 3D exploration indicators to express geological architecture and associated characteristics in ore systems. The integration of 3D geological models with 3D computational simulation data enhances the effectiveness of 3D MPM in representing the geological architecture and its coupled geodynamic processes that govern mineralization. Despite variations in modality (i.e., source, representation, and information abstraction levels) between geological models and simulation data, the cross-modal gap between these two types of data remains underexplored in 3D MPM. This paper presents a novel 3D MPM approach that robustly fuses multimodal information from geological models and simulation data. Acknowledging the coupled and correlated nature of geological architectures and geodynamic processes, a joint fusion strategy is employed, aligning information from both modalities by enforcing their correlation. A joint fusion neural network is devised to extract maximally correlated features from geological models and simulation data, fusing them in a cross-modality feature space. Specifically, correlation analysis (CCA) regularization is utilized to maximize the correlation between features of the two modalities, guiding the network to learn coordinated and joint fused features associated with mineralization. This results in a more effective 3D mineral prospectivity model that harnesses the strengths from both modalities for mineral exploration targeting. The proposed method is evaluated in a case study of the world-class Jiaojia gold deposit, NE China. Extensive experiments were carried out to compare the proposed method with state-of-the-art methods, methods using unimodal data, and variants without CCA regularization. Results demonstrate the superior performance of the proposed method in terms of prediction accuracy and targeting efficacy, highlighting the importance of CCA regularization in enhancing predictive power in 3D MPM.}
+}
+```
